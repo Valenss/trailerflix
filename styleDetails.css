@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+.titulo{
+    font-size: 5rem;
+    color: red;
+    text-align: center;
+    font-weight: 400;
+    height: 9rem;
+    margin-top: 2rem;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.links{
+    text-decoration: none;
+    color: red;
+    margin: 2rem;
+    font-weight: bold;
+}
+
+
+
+
+/* Details */
+.contenedor-detalles{
+    display: flex;
+    /* align-items: center; */
+}
+
+.contenedor-imagen{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.imagen-pelicula{
+    width: 70%;
+}
+
+.detalles{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:initial;
+}
+
+.detail{
+    display: flex;}
+
+/* TEXTOS */
+.texto{
+    color: white;
+    width: 80%;
+}
+
+.texto-titulo{
+    color: yellow;
+    width: 20%;
+}

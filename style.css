@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+.titulo{
+    font-size: 5rem;
+    color: red;
+    text-align: center;
+    font-weight: 400;
+    height: 9rem;
+    margin-top: 2rem;
+}
+
+.links{
+    text-decoration: none;
+    color: red;
+    margin: 2rem;
+    font-weight: bold;
+}
+
+/* MAIN */
+main{
+    padding: 4rem 2rem 4rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.categoria{
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+
+/* CARDS */
+.card-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    column-gap: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    position: relative;
+
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+.bx-search-alt{
+    background-color: rgba(255, 0, 0, 0.602);
+    border-radius: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    right: 0;
+    transition: transform 300ms;
+
+}
+
+.bx-search-alt:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 0, 0);
+
+}
+
+span{
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.texto{
+    color: white;
+}
+
+.data{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
